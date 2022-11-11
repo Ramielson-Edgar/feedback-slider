@@ -61,7 +61,7 @@ p {
         radial-gradient(383px 383px at 60% 63%, #e7212822 0%, rgba(14, 111, 253, 0) 100%),
         #F9FAFF;
     background-repeat: no-repeat;
-    background-position: center top 120px;
+    background-position: center top 100px;
 
 }
 
@@ -136,9 +136,9 @@ p {
     background-color:#fff;
     border-radius: 29px;
     padding: 16.5%;
-    height: 79%;
+    height: 77%;
  
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .main-testimonials__trustpilot__title {
@@ -265,7 +265,7 @@ p {
     background: #303030;
 }
 
-.owl-carousel .owl-stage-outer {padding: 100px 0 0;}
+.owl-carousel .owl-stage-outer {padding: 120px 0 0;}
 
 
 @media (max-width: 1198px) {
