@@ -1,10 +1,13 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-arrow" viewBox="0 0 22 32">
-<path stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="4" stroke-width="3.9111" d="M2.844 2.844l16.356 13.156-16.356 13.156"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="4" stroke-width="3.9111" d="M2.844 2.844l16.356 13.156-16.356 13.156"></path>
+</symbol>
+<symbol id="icon-quotes" viewBox="0 0 40 32">
+<path fill="#00e6a8" style="fill: var(--color2, #00e6a8)" d="M19.307 0v9.336c0 2.662-0.511 5.405-1.532 8.23-0.981 2.825-2.309 5.507-3.984 8.046-1.675 2.498-3.514 4.627-5.516 6.388l-8.274-4.791c1.512-2.416 2.799-5.036 3.861-7.862 1.062-2.866 1.594-6.183 1.594-9.95v-9.397h13.852zM40.453 0v9.336c0 2.662-0.511 5.405-1.532 8.23-0.981 2.825-2.309 5.507-3.984 8.046-1.675 2.498-3.514 4.627-5.516 6.388l-8.274-4.791c1.512-2.416 2.799-5.036 3.861-7.862 1.062-2.866 1.594-6.183 1.594-9.95v-9.397h13.852z"></path>
 </symbol>
 <symbol id="icon-star-gold" viewBox="0 0 34 32">
-<path fill="#ff922d" style="fill: var(--color1, #ff922d)" d="M17.067 0l3.832 11.793h12.4l-10.032 7.288 3.832 11.793-10.032-7.288-10.032 7.288 3.832-11.793-10.032-7.288h12.4l3.832-11.793z"></path>
+<path fill="#ff922d" style="fill: var(--color3, #ff922d)" d="M17.067 0l3.832 11.793h12.4l-10.032 7.288 3.832 11.793-10.032-7.288-10.032 7.288 3.832-11.793-10.032-7.288h12.4l3.832-11.793z"></path>
 </symbol>
 </defs>
 </svg>
