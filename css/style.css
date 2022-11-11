@@ -67,11 +67,9 @@ p {
 
 .main-testimonials__slide {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    min-height: 419px;
+    
 
-    height: 393px;
     background-color: rgba(255, 255, 255, 0.48);
     box-shadow: 10px 10px 30px -20px rgba(201, 201, 201, 0.2);
     border-radius: 23px;
@@ -123,10 +121,10 @@ p {
     color: #A1A1A1;
 }
 
+
 .main-testimonials__slide-text {
     line-height: 28px;
     color: #3e3e3e;
- 
 }
 
 .main-testimonials__trustpilot {
@@ -134,11 +132,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    background-color:#fff;
+    background-color: #fff;
     border-radius: 29px;
     padding: 16.5%;
     height: 77%;
- 
+
     margin-top: 120px;
 }
 
@@ -192,25 +190,26 @@ p {
     border-top: 1px solid #fff;
     padding-top: 40px;
 }
- 
+
 .main-testimonials__slide-rating {
     max-width: 200px;
-     display: grid;
-     grid-template-columns:40px 100px 30px ;
-     align-items: center;
-     gap: 14px;
-     padding-bottom: 26px;
+    display: grid;
+    grid-template-columns: 40px 100px 30px;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 26px;
+    flex-grow: 1;
 }
 
 .main-testimonials__slide-rating-text {
-    color:#C1C1C1 ;
+    color: #C1C1C1;
     text-transform: capitalize;
 }
- 
+
 
 .main-testimonials__slide-stars {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .main-testimonials__slide-grade {
@@ -266,8 +265,14 @@ p {
     background: #303030;
 }
 
-.owl-carousel .owl-stage-outer {padding: 120px 0 0;}
+.owl-carousel .owl-stage-outer {
+    padding: 120px 0 0;
+}
 
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    display: flex;
+}
 
 @media (max-width: 1198px) {
 
@@ -282,47 +287,48 @@ p {
 
     .main-testimonials__trustpilot {
         padding: 60px 40px;
-        height: 100%;
+    }
+
+    .main-testimonials__trustpilot {
+        height: 74%;
     }
 
 }
 
-@media (max-width:991.98px) {
+@media (max-width: 991.98px) {
     .main-testimonials__slide {
-        padding: 80px 50px 50px;
+        padding: 50px;
     }
 
-    .main-testimonials__feedback .owl-stage-outer {
-        padding: 70px 0 0;
+    .main-testimonials__user-name,
+    .main-testimonials__slide-text {
+        font-size: 0.875rem;
     }
 
     .main-testimonials__slide::before {
-        left: 40%;
+        left: 60%;
     }
 
     .main-testimonials__slide-title {
-        font-size: 1.125rem;
+        font-size: 1rem;
         line-height: 27px;
     }
 
-    .main-testimonials__trustpilot {
-        height: 345px;
-        padding: 80px 40px;
-        margin-top: 23px;
+    .main-testimonials__slide {
+        min-height:522px ;
     }
 
-    .main-testimonials__header {
-        margin-bottom: 100px;
+
+
+    .main-testimonials__trustpilot {
+        height: 76%;
+        padding: 80px 40px;
     }
+
 
     .main-testimonials__feedback .owl-nav {
         top: 20%;
     }
-
-    /* .item-allpips {
-        width: 100%;
-    } */
-
 
 
 }
@@ -337,7 +343,7 @@ p {
 
     .main-testimonials__feedback.owl-theme .owl-dots {
         position: absolute;
-        bottom: calc(-65% + 1vw);
+        bottom: calc(-44% + 1vw);
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -362,12 +368,10 @@ p {
         margin: 0;
     }
 
-        .account-types-carousel__allpips-item {
-        width: 100%;
-    } 
+    .main-testimonials__slide {
+        min-height: 466px;
+    }
 
-
- 
 }
 
 @media (max-width: 575.98px) {
@@ -380,7 +384,7 @@ p {
     }
 
     .main-testimonials__slide {
-        padding: 80px 20px 20px;
+        padding: 70px 20px 20px;
     }
 
     .main-testimonials__trustpilot,
@@ -415,23 +419,25 @@ p {
     }
 
 
+    .main-testimonials__slide {
+        min-height: 510px;
+    }
 
-}
-
-@media (max-width: 375px) {
-    .main-testimonials__trustpilot-link {
-        margin-top: 15px;
+    .main-testimonials__feedback.owl-theme .owl-dots {
+        bottom: calc(-33% + 1vw);
     }
 
     .main-testimonials__feedback.owl-theme .owl-dots .owl-dot span {
         width: 15px;
         height: 15px;
     }
-}
 
-@media (max-width: 320px) {
-    .main-testimonials__feedback.owl-theme .owl-dots {
-        bottom: -55%;
+    .main-testimonials__trustpilot-link {
+        margin-top: 15px;
     }
 
+
 }
+ 
+
+ 
