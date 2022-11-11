@@ -84,6 +84,7 @@ p {
 .main-testimonials__slide-title,
 .main-testimonials__user-name {
     text-transform: capitalize;
+    font-weight: 700;
 }
 
 .main-testimonials__title {
