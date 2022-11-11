@@ -67,7 +67,7 @@ p {
 
 .main-testimonials__slide {
     position: relative;
-    min-height: 419px;
+    height: 419px;
     
 
     background-color: rgba(255, 255, 255, 0.48);
@@ -290,7 +290,7 @@ p {
     }
 
     .main-testimonials__trustpilot {
-        height: 74%;
+        height: 78%;
     }
 
 }
@@ -434,6 +434,11 @@ p {
 
     .main-testimonials__trustpilot-link {
         margin-top: 15px;
+    }
+
+    .main-testimonials__slide::before {
+        top: -60px;
+        left: 40%;
     }
 
 
