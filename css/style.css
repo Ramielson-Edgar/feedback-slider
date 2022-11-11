@@ -56,7 +56,7 @@ p {
 
 
 .main-testimonials {
-    background: url('/testimmomials-bg-img.png'),
+    background: url('../img/testimmomials-bg-img.png'),
         radial-gradient(383px 383px at 45% 63%, #0e6efd22 0%, rgba(14, 111, 253, 0) 100%),
         radial-gradient(383px 383px at 60% 63%, #e7212822 0%, rgba(14, 111, 253, 0) 100%),
         #F9FAFF;
@@ -102,7 +102,7 @@ p {
     width: 134px;
     height: 106px;
 
-    background-image: url('../icon-quotes.svg');
+    background-image: url('../icons/icon-quotes.svg');
     background-repeat: no-repeat;
     background-position: center left;
     background-size: auto;
@@ -242,13 +242,13 @@ p {
 
 .main-testimonials__feedback .arrow-left-short {
     left: -20px;
-    background-image: url('../icon-arrow.svg');
+    background-image: url('../icons/icon-arrow.svg');
     transform: rotate(-180deg);
 }
 
 .main-testimonials__feedback .arrow-right-short {
     right: 0;
-    background-image: url('../icon-arrow.svg');
+    background-image: url('../icons/icon-arrow.svg');
 }
 
 .main-testimonials__feedback.owl-theme .owl-dots .owl-dot span {
